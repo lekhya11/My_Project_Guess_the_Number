@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+
+.App-container {
+  background-image: url('https://i.pinimg.com/564x/5e/76/0c/5e760cba5e9ca01ed6249f1ea49cb104.jpg');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  height: 50px;
+  width: 20%;
+  border-radius: 10px;
+  border-bottom: none;
+  border-top: none;
+  border-right: 10px solid red;
+  border-left: 10px solid red;
+  padding: 20px;
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+  color: red;
+}
+
+.container {
+  text-align: center;
+}
+
+.main-heading {
+  font-family: 'Bungee Spice', cursive;
+  font-weight: bolder;
+  font-size: 50px;
+}
+
+.image {
+  height: 250px;
+  width: 300px;
+}
+
+.para {
+  font-size: 15px;
+  font-family: 'Bungee Spice', cursive;
+  font-weight: 500;
+}
+
+.button {
+  background-image: linear-gradient(#2694c7, #5239a3, #160354);
+  height: 30px;
+  width: 130px;
+  color: white;
+  font-family: 'Roboto';
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.message {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 700;
+  color: green;
+}
+
+.correct {
+  color: blueviolet;
+  font-weight: 900;
+}
